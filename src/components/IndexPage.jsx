@@ -15,7 +15,7 @@ function IndexPage() {
         <FadeInText>
           <p className="text-black text-center tracking-tight font-bold text-3xl md:text-4xl">
             <span className="bg-gradient-to-br from-amber-500 via-pink-500 to-violet-600 bg-clip-text text-transparent"></span>{" "}
-            A customer review sentiment analyser
+            A customer review sentiment analyzer
           </p>
         </FadeInText>
       </div>
