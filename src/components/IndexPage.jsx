@@ -52,7 +52,10 @@ function IndexPage() {
 
       <FadeInText>
         <div className="w-full md:w-1/2 mx-auto">
-          <img className="object-cover" src="2.png" />
+          <img
+            className="object-cover"
+            src={`${process.env.PUBLIC_URL}/2.png`}
+          />
         </div>
       </FadeInText>
 
