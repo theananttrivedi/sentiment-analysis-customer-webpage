@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/sentiment-analysis-customer-webpage" element={<Layout />}>
           <Route index element={<IndexPage />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
